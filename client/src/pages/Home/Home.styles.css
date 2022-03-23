@@ -1,0 +1,29 @@
+.home{
+    max-width: 100%;
+    padding: 0 12rem 0 10rem;
+    position: relative;
+    top: 1.8rem;
+}
+
+.dots{
+    position: absolute;
+    display: flex;
+    gap:1.2rem;
+    top: 90%;
+    left:50%;
+    transform: translate(-50%,-90%);
+}
+
+.dot{
+    width: 1rem;
+    height:1rem;
+    border-radius: 50%;
+    border: 1px solid black;
+    
+}
+
+@media (max-width:1300px){
+    .home{
+        padding: 0rem;
+    }
+}

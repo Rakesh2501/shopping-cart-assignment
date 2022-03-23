@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+    
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+
+.cart-open div:not(.cart *){
+    filter: opacity(60%);
+}

@@ -1,0 +1,11 @@
+.carousel{
+    width: 90%;
+    height: 90%;
+    margin: auto
+}
+.carousel-container{
+
+    width: 100%;
+    box-shadow: 0 10px 10px -10px grey;
+    
+}
